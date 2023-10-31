@@ -1,0 +1,25 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap:5px;
+    legend{
+        font-size: 30px;
+        margin: 10px;
+    }
+    label{
+        text-align: start;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    input{
+        display: flex;
+        width:300px;
+        border-radius: 4px;
+        height: 30px;
+        border: 1px solid #000;
+        background-color: aliceblue;
+        color: #000;
+        text-align: center;
+    }
+}
