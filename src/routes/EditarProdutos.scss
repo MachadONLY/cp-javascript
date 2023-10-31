@@ -3,6 +3,7 @@ form{
     flex-direction: column;
     margin: 10px;
     gap:5px;
+
     legend{
         font-size: 30px;
         margin: 10px;
@@ -14,11 +15,11 @@ form{
     }
     input{
         display: flex;
-        width:300px;
-        border-radius: 4px;
-        height: 30px;
+        width:600px;
+        border-radius: 6px;
+        height: 22px;
         border: 1px solid #000;
-        background-color: aliceblue;
+        background-color: red;
         color: #000;
         text-align: center;
     }

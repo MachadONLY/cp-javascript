@@ -1,13 +1,13 @@
 .tblEstilo{
-    border: 2px solid #ccc;
+    border: 2px solid #f2f2f2;
     border-collapse: collapse;
     margin: 0 auto;
 
     & thead{
-        background-color: #ffe4c4;
+        background-color: blue;
 
         & th{
-            border: 2px solid #ccc;
+            border: 2px solid #f2f2f2;
             text-align: center;
         }
     }
@@ -15,7 +15,7 @@
     & tbody{
         & tr{
             &:hover{
-                background-color: #e2e2e2;
+                background-color: #f2f2f2;
             }
 
             & td{
